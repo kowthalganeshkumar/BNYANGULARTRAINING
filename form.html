@@ -1,0 +1,98 @@
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="bootstrap.min.css">
+            <link rel="stylesheet" href="app.css">
+            <script src="bootstrap.min.js"></script>
+			<script src="main.js"></script>
+    </head>
+    <body>
+        <div class="body">
+            <div class="row padding-10">
+                <div class="col-md-3">
+                    <span><label> Company Name</label></span>
+                </div>
+                <div class="col-md-3 ">
+                    <input type="text" onchange="mySample()"/>
+                </div>
+            </div>
+            <div class="row padding-10">
+                <div class="col-md-3">
+                    <span><label> Address</label></span>
+                </div>
+                <div class="col-md-3">
+                    <input type="text"/>
+                </div>                
+            </div>
+            <div class="row padding-10">
+                <div class="col-md-3">
+                    <span><label> Phone</label></span>
+                </div>
+                <div class="col-md-3">
+                    <input type="text"/>
+                </div>                
+            </div>
+            <div class="row padding-10">
+                <div class="col-md-3">
+                    <span><label> Fax</label></span>
+                </div>
+                <div class="col-md-3">
+                    <input type="text"/>
+                </div>                
+            </div>
+
+            <div class="row leavetitle">
+                <div class="leaveBorder "> <label> Leave Application Form</label></div>
+            </div>
+            <div class="row padding-10">
+                <p>I, <span><input type="text"/></span>, NRIC <span><input type="text"/></span>, under the company
+                    <span><input type="text"/></span> reporting to <span><input type="text"/></span> wish to apply for
+                    <span><input type="text"/></span> days of leave from <span><input type="text"/></span> to 
+                    <span><input type="text"/></span> for the following reasons<br/> <br/>
+                    <span><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea></span><br/>
+                    Type of leave requested (Please select)<br/>
+                    <input type="checkbox" id="annual" name="annual" value="annual"><label for="vehicle1"> Annual</label><br/>
+                    <input type="checkbox" id="medical" name="medical" value="medical"><label for="vehicle1"> medical</label><br/>
+                    <input type="checkbox" id="maternity" name="maternity" value="maternity"><label for="vehicle1"> maternity</label><br/>
+                    <input type="checkbox" id="compassionate" name="compassionate" value="compassionate"><label for="vehicle1"> compassionate</label><br/>
+                    <input type="checkbox" id="unpaid" name="unpaid" value="unpaid"><label for="vehicle1"> unpaid</label><br/>
+                    <input type="checkbox" id="others" name="others" value="others"><label for="vehicle1"> others</label>
+                    <input type="text"/><br/>
+                </p>
+            </div>
+            <div class="row padding-10">
+                <div class="col-md-5">
+                        <span><input type="text"/></span><br/>
+                        <span>Application signature</span>
+                </div>
+                <div class="col-md-5">
+                        <span><input type="date"/></span><br/>
+                        <span>Date</span>
+                </div>
+            </div>
+            <div class="row padding-10">
+                <table border="1">
+                    <th>For official use</th>
+                    <tr><td>Approved</td><td>Rejected</td></tr>
+                </table>
+            </div>
+            <div class="row padding-10">
+                <div class="col-md-5">
+                        <span><input type="text"/></span><br/>
+                        <span>Signed By</span>
+                </div>
+            </div>
+            <div class="row padding-10">
+                <div class="col-md-5">
+                        <span><input type="text"/></span><br/>
+                        <span>Name</span>
+                </div>
+                <div class="col-md-5">
+                        <span><input type="date"/></span><br/>
+                        <span>Date</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

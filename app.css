@@ -1,0 +1,17 @@
+.leaveBorder {
+    text-align: center;
+    border: 1px solid;
+}
+
+.leavetitle {
+    padding: 9px;
+    margin: 10;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
